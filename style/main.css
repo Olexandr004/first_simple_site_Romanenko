@@ -171,15 +171,22 @@ section, footer{
     padding-bottom: 50px;
 }
 
-.container-1 h3{
-margin-bottom: 20px;
-}
-git --version
-.container-1 p{
-    font-size: 13px;
+.container-1 h3 {
+    margin-bottom: 20px;
 }
 
-.relative{
+.container-1 p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.container-1 a {
+    text-decoration: none;
+    border: 2px solid;
+    padding: 8px 12px ;
+}
+
+.relative {
     position: relative;
 }
 
@@ -189,5 +196,30 @@ git --version
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.title {
+    color: #FFFFFF;
+    background: #34547A;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer{
+    color: #FFFFFF;
+    background: #34547A;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    border: 2px solid;
+    padding: 8px 16px;
+}
+
+
+
+
+
 
 
